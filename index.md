@@ -5,16 +5,9 @@ author      : adnarel (devdataprod-005)
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-url:
-  lib: ../../libraries
-  assets: ../../assets
-widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
+widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
-output:
-  ioslides_presentation:
-    widescreen: true
-    smaller: true
-
+knit        : slidify::knit2slides
 ---
 
 
